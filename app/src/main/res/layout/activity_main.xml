@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageButton
+        android:id="@+id/closing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/closingbtn"
+        android:padding="30dp"
+        android:onClick="finishClick"
+        android:src="@drawable/close" />
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/titleApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/welcome_to_book_magazine"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/fewer_meetings_less_internal_email_all_your_tools_integrated"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/illustration" />
+
+     <android.support.v7.widget.CardView
+         android:layout_width="250dp"
+         app:cardBackgroundColor="#44A6FF"
+         android:layout_margin="10dp"
+         app:cardCornerRadius="30dp"
+         android:layout_height="50dp"
+         app:cardElevation="10dp"
+         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/simplefont" />
+     </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            app:cardBackgroundColor="#FFF"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sign_in"
+                android:textStyle="bold"
+                android:fontFamily="@font/simplefont"  />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

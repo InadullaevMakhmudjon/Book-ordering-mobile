@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookApplication</string>
+    <string name="welcome_to_book_magazine">" Welcome to \n book magazine"</string>
+    <string name="fewer_meetings_less_internal_email_all_your_tools_integrated">"Fewer meetings, less internal email,\n all your tools integrated."</string>
+    <string name="closingbtn">Closingbtn</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+</resources>
