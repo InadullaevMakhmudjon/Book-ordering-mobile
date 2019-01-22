@@ -2,5 +2,6 @@
 <resources>
     <color name="colorPrimary">#673AB7</color>
     <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="magazinePrimaryDark">#673AB7</color>
     <color name="colorAccent">#44A6FF</color>
 </resources>
