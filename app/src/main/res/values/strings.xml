@@ -4,5 +4,13 @@
     <string name="fewer_meetings_less_internal_email_all_your_tools_integrated">"Fewer meetings, less internal email,\n all your tools integrated."</string>
     <string name="closingbtn">Closingbtn</string>
     <string name="sign_up">Sign up</string>
+    <string name="content">"Remember to get up and stretch\n  once in a while your friends reading book."</string>
     <string name="sign_in">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up_here">Sign up here</string>
+    <string name="emailicon">EmailIcon</string>
+    <string name="passwordicon">PasswordIcon</string>
 </resources>
