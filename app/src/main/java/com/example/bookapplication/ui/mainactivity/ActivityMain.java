@@ -16,7 +16,8 @@ public class ActivityMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         /*requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
-        setContentView(R.layout.activitiy_magazine);
+        getSupportActionBar().setElevation(0);
+        setContentView(R.layout.activity_book);
     }
 
     public void finishClick(View v){
