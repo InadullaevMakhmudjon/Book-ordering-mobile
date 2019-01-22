@@ -13,4 +13,6 @@
     <string name="sign_up_here">Sign up here</string>
     <string name="emailicon">EmailIcon</string>
     <string name="passwordicon">PasswordIcon</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="i_agree_with_the_terms_and_condition_and_the_privacy_policy">"I agree with the Terms and Condition \nand the Privacy Policy"</string>
 </resources>
