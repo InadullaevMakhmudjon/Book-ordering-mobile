@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="viewmodelobj"
+            type="com.example.bookapplication.ui.mainactivity.ui.activitymain.MainViewModel"/>
+    </data>
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -16,7 +24,7 @@
         android:background="@android:color/transparent"
         android:contentDescription="@string/closingbtn"
         android:padding="30dp"
-        android:onClick="finishClick"
+        android:onClick="@{(v)->viewmodelobj.finishClick()}"
         android:src="@drawable/close" />
 
     <LinearLayout
@@ -64,6 +72,7 @@
          app:cardCornerRadius="30dp"
          android:layout_height="50dp"
          app:cardElevation="10dp"
+         android:onClick="@{(v)->viewmodelobj.registrationClick()}"
          >
         <TextView
             android:layout_width="wrap_content"
@@ -83,6 +92,7 @@
             app:cardElevation="10dp"
             android:layout_height="50dp"
             android:layout_marginBottom="50dp"
+            android:onClick="@{(v)->viewmodelobj.loginClick()}"
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -95,3 +105,4 @@
     </LinearLayout>
 
 </RelativeLayout>
+</layout>

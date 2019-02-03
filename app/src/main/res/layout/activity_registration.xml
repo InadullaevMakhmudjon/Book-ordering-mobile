@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<layout
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewmodelobject"
+            type="com.example.bookapplication.ui.mainactivity.ui.activityregistration.RegistrationViewModel"/>
+    </data>
+
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -156,3 +163,4 @@
 
 
 </RelativeLayout>
+</layout>

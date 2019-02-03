@@ -2,19 +2,22 @@
     package="com.example.bookapplication">
 
     <application
+        android:name=".ui.mainactivity.BookApplication"
         android:allowBackup="true"
         android:icon="@drawable/bookicon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/MagazineTheme" >
-    <activity android:name=".ui.mainactivity.ActivityMain">
+        android:theme="@style/AppTheme" >
+    <activity android:name=".ui.mainactivity.ui.activitymain.ActivityMain">
           <intent-filter>
                  <action android:name="android.intent.action.MAIN" />
                  <category android:name="android.intent.category.LAUNCHER" />
           </intent-filter>
     </activity>
 
+        <activity android:name=".ui.mainactivity.ui.activitylogin.ActivityLogin" />
+        <activity android:name=".ui.mainactivity.ui.activityregistration.ActivityReg" />
 
     </application>
 </manifest>
